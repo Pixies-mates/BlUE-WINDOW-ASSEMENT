@@ -1,0 +1,28 @@
+{
+    "users": [
+      { "validFirstName": "john",
+       "validLastName":"Smith",
+       "validEmail":"john.smith@example.com",
+       "validPassword":"P@ssw0rd",
+       "validConfirmPassword":"P@ssw0rd",
+       "validDateOfBirth": "1990-01-01",
+       "validPhoneNumber":"0123456789",
+       "validAddress":"123, Main st, Apt1",
+       "validLinkedInUrl":"https://www.linkedin.com/in/johnsmith",
+       "validGitHubUrl":"https://github.com/johnsmith"
+       } ,
+       {
+       "invalidFirstName": "fist",
+       "invalidLastName":"234'",
+       "invalidEmail":"john.smithyhexample.com",
+       "invalidPassword":"Psw0rd",
+       "invalidConfirmPassword":"P@ssw0rd",
+       "invalidDateOfBirth": "2345-01-01",
+       "invalidPhoneNumber":"23456789",
+       "invalidLinkedInUrl":"https://www.linkedin.com/in/johnsmith",
+       "invalidGitHubUrl":"https://github.com/johnsmith",
+       "invalidAddress":"123, Must"
+       
+       }
+    ]
+}
