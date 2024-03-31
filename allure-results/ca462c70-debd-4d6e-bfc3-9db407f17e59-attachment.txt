@@ -1,0 +1,28 @@
+Error occurred: page.fill: value: expected string, got undefined
+    at UserProfilePage.fillPhoneNumber (C:\Users\user\OneDrive\Bureau\clone repository\BlUE-WINDOW-ASSEMENT\pages\userProfile.js:46:25)
+    at C:\Users\user\OneDrive\Bureau\clone repository\BlUE-WINDOW-ASSEMENT\tests\wepageValidation.spec.js:126:29 {
+  [Symbol(step)]: {
+    stepId: 'pw:api@14',
+    location: {
+      file: 'C:\\Users\\user\\OneDrive\\Bureau\\clone repository\\BlUE-WINDOW-ASSEMENT\\pages\\userProfile.js',
+      line: 46,
+      column: 25,
+      function: 'UserProfilePage.fillPhoneNumber'
+    },
+    category: 'pw:api',
+    title: 'page.fill(#phone)',
+    apiName: 'page.fill',
+    params: { selector: '#phone', value: undefined },
+    wallTime: 1711865662778,
+    boxedStack: undefined,
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1711865662780,
+    error: {
+      message: 'Error: page.fill: value: expected string, got undefined',
+      stack: 'Error: page.fill: value: expected string, got undefined\n' +
+        '    at UserProfilePage.fillPhoneNumber (C:\\Users\\user\\OneDrive\\Bureau\\clone repository\\BlUE-WINDOW-ASSEMENT\\pages\\userProfile.js:46:25)\n' +
+        '    at C:\\Users\\user\\OneDrive\\Bureau\\clone repository\\BlUE-WINDOW-ASSEMENT\\tests\\wepageValidation.spec.js:126:29'
+    }
+  }
+}

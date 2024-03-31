@@ -1,0 +1,28 @@
+Error occurred: page.fill: value: expected string, got undefined
+    at UserProfilePage.fillConfirmPassword (C:\Users\user\OneDrive\Bureau\clone repository\BlUE-WINDOW-ASSEMENT\pages\userProfile.js:38:25)
+    at C:\Users\user\OneDrive\Bureau\clone repository\BlUE-WINDOW-ASSEMENT\tests\wepageValidation.spec.js:108:29 {
+  [Symbol(step)]: {
+    stepId: 'pw:api@12',
+    location: {
+      file: 'C:\\Users\\user\\OneDrive\\Bureau\\clone repository\\BlUE-WINDOW-ASSEMENT\\pages\\userProfile.js',
+      line: 38,
+      column: 25,
+      function: 'UserProfilePage.fillConfirmPassword'
+    },
+    category: 'pw:api',
+    title: 'page.fill(#confirmPassword)',
+    apiName: 'page.fill',
+    params: { selector: '#confirmPassword', value: undefined },
+    wallTime: 1711865656162,
+    boxedStack: undefined,
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1711865656164,
+    error: {
+      message: 'Error: page.fill: value: expected string, got undefined',
+      stack: 'Error: page.fill: value: expected string, got undefined\n' +
+        '    at UserProfilePage.fillConfirmPassword (C:\\Users\\user\\OneDrive\\Bureau\\clone repository\\BlUE-WINDOW-ASSEMENT\\pages\\userProfile.js:38:25)\n' +
+        '    at C:\\Users\\user\\OneDrive\\Bureau\\clone repository\\BlUE-WINDOW-ASSEMENT\\tests\\wepageValidation.spec.js:108:29'
+    }
+  }
+}
